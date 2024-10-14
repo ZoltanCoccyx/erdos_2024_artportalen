@@ -13,6 +13,7 @@ Balthazar Charles, Kevin Specht, Spyridon Lentas
 1) Is there a significant northward creep for species previously only observed in the south ?
 2) Do some species stay longer in the year ?
 3) Other miscellaneous questions to our fantasy.
+    - Possibly use some CNN to produce year on year repartition maps ?
 
 Possibly validate the trends by trying to predict the last years of data? And then project to the :star: future :star:.
 
@@ -22,18 +23,21 @@ The ArtPortalen is a Swedish website where users can report sightings of species
 
 Pièce de résistance: [*Artpotalen dataset*](https://www.gbif.org/dataset/38b4c89f-584c-41bb-bd8f-cd1def33e92f) (beware, 58GB)
 
-Meteorological Data: [*Nordic gridded temperature and precipitation data from 1961 to present derived from in-situ observations*](https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-nordic?tab=overview) 
+Meteorological Data: [*Nordic gridded temperature and precipitation data from 1961 to present derived from in-situ observations*](https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-nordic?tab=overview)
+
+Possibly a good idea to find a population density dataset to ponder to frequency of observations?
 
 
 ### Stakeholders
 
-- Sweden
-- Mosquito real estate investors
+- Healthcare system through the monitoring and prediction of animal-borne disease repartition (via the vector species).
+- Environmental protection from invasive species.
+- Mosquito real estate investors (self explanatory)
 
 ### KPI
 
-- Good question
-- Less mosquitoes?
+- If we produce projection maps, rmse with actual map repartition considered as a 2d function?
+- Idem for period of presence and lattitudes.
 
 ### Special difficulties:
 
