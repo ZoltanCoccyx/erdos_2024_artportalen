@@ -14,6 +14,7 @@ Balthazar Charles, Kevin Specht, Spyridon Lentas
 2) Do some species stay longer in the year ?
 3) Other miscellaneous questions to our fantasy.
     - Possibly use some CNN to produce year on year repartition maps ?
+    - Clustering/Classifying species depending on their reaction (e.g. observing the repartition of a species over only one year, can we predict if it will be positively or negatively impacted by climate change ?)
 
 Possibly validate the trends by trying to predict the last years of data? And then project to the :star: future :star:.
 
@@ -36,8 +37,10 @@ Possibly a good idea to find a population density dataset to ponder to frequency
 
 ### KPI
 
-- If we produce projection maps, rmse with actual map repartition considered as a 2d function?
-- Idem for period of presence and lattitudes.
+- If we produce projection maps, at least rmse with actual map repartition considered as a 2d function? (If we consider that we are producing density function for the proba of observation of a species, maybe something more fancy like cross entropy?).
+- Idem for period of presence and latitudes.
+- Idem for classifying species into positively impacted/negatively impacted/indifferent.
+
 
 ### Special difficulties:
 
