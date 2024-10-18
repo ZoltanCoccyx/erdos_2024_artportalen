@@ -8,3 +8,5 @@ artportalen_arthropods.csv
 arthropods_compressed.csv
 arthropods_cleaned.csv
 .DS_Store
+artportalen_trimmed.csv.zip
+__pycache__
